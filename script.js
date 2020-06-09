@@ -1,5 +1,5 @@
 var media = [
-    "https://www.youtube.com/watch?v=xmGv_Schm5U"
+    "https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/new_year_dubstep_minimix.mp3"
   ],
   fftSize = 2048,
   // [32, 64, 128, 256, 512, 1024, 2048]
@@ -55,7 +55,6 @@ var media = [
   ctx,
   actx,
   asource,
-  vsource,
   gainNode,
   analyser,
   frequencyData,
