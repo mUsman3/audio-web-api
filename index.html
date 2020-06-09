@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visualizations with Web Audio API</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <button id="togglecontrol"></button>
+    <button autofocus id="loadcontrol">tap to play</button>
+    <div id="loading">
+      <p>Loading&hellip;</p>
+      <p class="msg">- Initializing -</p>
+    </div>
+    <div id="no-audio">
+      <h1>No Web Audio API</h1>
+      <p>Sorry, this experiment requires the Web Audio API.</p>
+      <a href="http://caniuse.com/#feat=audio-api" target="_blank"
+        >See browser support</a
+      >
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
